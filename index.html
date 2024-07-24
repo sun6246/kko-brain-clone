@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>카카오브레인블로그 클론 코딩</title>
+
   <!-- css -->
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="css/global.css" />
@@ -16,12 +17,18 @@
    rel="stylesheet"
    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
   />
+  <!-- xeicon -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+ />
   <!-- javascript -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="js/header.js"></script>
   <script src="js/banner.js"></script>
   <script src="js/news.js"></script>
   <script src="js/crew.js"></script>
+  <script src="js/cards.js"></script>
  </head>
  <body>
   <div class="wrap">
@@ -165,14 +172,7 @@
         <div class="main-cards-slide">
          <div class="swiper swCards">
           <div class="swiper-wrapper">
-           <div class="swiper-slide">
-            <a href="#" data-id="1" class="main-card">
-             <p class="main-card-cate">
-              카드이름
-              <span>카드번호</span>
-             </p>
-            </a>
-           </div>
+           <!-- json 연동 -->
           </div>
          </div>
         </div>
@@ -188,6 +188,44 @@
    <!-- 메인 영역 끝 -->
 
    <!-- 하단 영역 시작 -->
+    <footer class="footer">
+        <div class="footer-top">
+            
+            <div class="footer-bottom">
+                <div class="inner">
+                    <p class="copy">Kakao Brain Corp. @ All rights reserved.</p>
+                    <ul class="footer-sns">
+                        <li>
+                            <a href="#">
+                                <i class="xi-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                             <i class="xi-youtube-play"></i>
+                            </a>
+                           </li>
+                           <li>
+                            <a href="#">
+                             <i class="xi-github"></i>
+                            </a>
+                           </li>
+                           <li>
+                            <a href="#">
+                             <i class="xi-facebook"></i>
+                            </a>
+                           </li>
+                           <li>
+                            <a href="#">
+                             <i class="xi-home"></i>
+                            </a>
+                           </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
    <!-- 하단 영역 끝 -->
   </div>
  </body>
